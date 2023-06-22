@@ -1,0 +1,11 @@
+$Color-Dark: #141414;
+$Color-White: #e5e5e5;
+$Color-Orange: #eba53d;
+
+footer{
+    line-height: 70px;
+    background-color: $Color-Orange;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}

@@ -1,20 +1,100 @@
 $Color-Dark: #141414;
 $Color-White: #e5e5e5;
+$Color-Orange: #eba53d;
 
 .nav-container{
-    background-color: $Color-White;
+    background-color: $Color-Orange;
     nav{
-        border: 3px solid red;
-        max-width: 1600px;
+        min-height: 70px;
+        max-width: 1400px;
         width: 100%;
         margin: 0 auto;
-    
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        .logo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            h1{
+               margin-left: 20px; 
+               
+            }
+        }
         ul{
             display: flex;
-            justify-content: right;
+            justify-content: space-between;
             align-items: center;
-    
+            li{
+                padding: 10px;
+                transition: all 0.3s;
+                a{
+                    color: $Color-Dark;
+                    text-decoration: none;
+                    font-size: 19px;
+                    transition: all 0.1s;
+                    &:hover{
+                        border-bottom: 2px solid $Color-Orange;
+                        
+                    }
+                }
+                &:hover{
+                    background-color: #e5e5e5;
+                    
+
+                }
+            }
+
         }
     }
 }
 
+.hamburger{
+    padding-top: 15px;
+    padding-right: 22px;
+
+ i{
+ 
+    font-size: 35px;
+ }
+
+}
+
+
+@media only screen and (max-width: 800px){
+    .nav-container{
+        nav{
+
+            ul{
+             
+                flex-direction: column;
+                background-color: $Color-Orange;                position: absolute;
+                overflow: hidden;
+                // display: none;
+                top: 100%;
+           
+               
+            }
+
+            ul.hide{
+                // display: none;
+                width: 0px;
+                right: 0;
+                transition: 0.3s all;
+
+
+            }
+            ul.show{
+                transition: 0.3s all;
+                right: 0;
+                width: 200px;
+                z-index: 1000;
+                // display: initial;
+            }
+        }
+    }
+    .hamburger{
+        display: initial;
+    }
+ 
+}
