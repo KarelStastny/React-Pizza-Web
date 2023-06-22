@@ -1,0 +1,20 @@
+$Color-Dark: #141414;
+$Color-White: #e5e5e5;
+
+.nav-container{
+    background-color: $Color-White;
+    nav{
+        border: 3px solid red;
+        max-width: 1600px;
+        width: 100%;
+        margin: 0 auto;
+    
+        ul{
+            display: flex;
+            justify-content: right;
+            align-items: center;
+    
+        }
+    }
+}
+

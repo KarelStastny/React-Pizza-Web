@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+
+import './App.scss';
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Galerie from "./pages/Galerie"
+
+import ONas from "./pages/ONas"
+import Kontakt from "./pages/Kontakt"
+import Pobocky from "./pages/Pobocky"
+import Layoud from "./pages/Layoutd"
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return  <BrowserRouter>
+  <Routes>
+
+    {/* Layout pro všechny stránky */}
+    <Route path='/' element={<Layoud/>}>
+      {/* Jednotlivé stránky */}
+        <Route path="/home" >Domů</Route>
+        <Route path="/onas" element={<ONas/>}>O nás</Route>
+        <Route path="/pobocky" element={<Pobocky/>}>Pobočky</Route>
+        <Route path="/galerie" element={<Galerie/>}>Galerie</Route>
+        <Route path="/kontakt" element={<Kontakt/>}>Kontakt</Route>
+    
+
+    </Route>
+
+  </Routes>
+</BrowserRouter>
+
 }
 
 export default App;
