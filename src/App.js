@@ -5,10 +5,12 @@ import Galerie from "./pages/Galerie"
 
 import ONas from "./pages/ONas"
 import Nabidka from "./pages/Nabidka"
+
 import Kontakt from "./pages/Kontakt"
 import Pobocky from "./pages/Pobocky"
 import Layoud from "./pages/Layoutd"
 import Home from './pages/Home';
+import NabidkaOne from './components/NabidkaOne';
 
 function App() {
   return  <BrowserRouter>
@@ -18,11 +20,12 @@ function App() {
     <Route path='/' element={<Layoud/>}>
       {/* Jednotlivé stránky */}
         <Route index element={<Home/>}/>
-        <Route path="nabidka" element={<Nabidka/>}/>
-        <Route path="onas" element={<ONas/>}/>
-        <Route path="pobocky" element={<Pobocky/>}/>
-        <Route path="galerie" element={<Galerie/>}/>
-        <Route path="kontakt" element={<Kontakt/>}/>
+        <Route path="/nabidka" element={<Nabidka/>}/>
+        <Route path="/polozky/:nabidkaId" element={<NabidkaOne/>}/>
+        <Route path="/onas" element={<ONas/>}/>
+        <Route path="/pobocky" element={<Pobocky/>}/>
+        <Route path="/galerie" element={<Galerie/>}/>
+        <Route path="/kontakt" element={<Kontakt/>}/>
     
 
     </Route>

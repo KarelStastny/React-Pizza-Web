@@ -1,0 +1,52 @@
+.nabidka{
+    h2{text-align: center; margin: 20px;}
+    .nabidka-container{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    
+        .n-card{
+            margin: 20px;
+            box-shadow: 0 0 10px rgb(107, 107, 107);
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            flex-direction: column;
+    
+            img{
+                max-width: 280px;
+                width: 100%;
+                height: 280px;
+                object-fit: cover;
+            }
+            .n-card-description{
+                display: flex;
+              
+                justify-content: space-around;
+
+                p{
+                    text-align: center;
+                    font-size: 16px;
+                    width: 100%;
+                    padding: 5px;
+                    background-color: rgb(241, 200, 122);
+                }
+                .nabidkac-cost{
+                    background-color: white;
+                }
+
+
+            }
+            a{
+                padding: 5px;
+                font-size: 18px;
+                text-align: center;
+                background-color: orange;
+                cursor: pointer;
+            }
+
+    
+        }
+    }
+}

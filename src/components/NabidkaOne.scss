@@ -1,0 +1,31 @@
+.section-one-pizza{
+
+    .container-one-pizza{
+        max-width: 600px;
+        width: 100%;
+        margin: 60px auto;
+        box-shadow: 0 0 1px black;
+
+        display: flex;
+
+
+        img{
+            width: 250px;
+            height: 255px;
+            object-fit: cover;
+
+          
+
+        }
+        .one-pizza-description{
+            
+           padding: 10px;
+           h3, h2, p{
+            margin-bottom: 5px;
+           }
+
+
+           
+        }
+    }
+}
