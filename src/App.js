@@ -7,6 +7,7 @@ import ONas from "./pages/ONas"
 import Kontakt from "./pages/Kontakt"
 import Pobocky from "./pages/Pobocky"
 import Layoud from "./pages/Layoutd"
+import Home from './pages/Home';
 
 function App() {
   return  <BrowserRouter>
@@ -15,11 +16,11 @@ function App() {
     {/* Layout pro všechny stránky */}
     <Route path='/' element={<Layoud/>}>
       {/* Jednotlivé stránky */}
-        <Route path="/home" >Domů</Route>
-        <Route path="/onas" element={<ONas/>}>O nás</Route>
-        <Route path="/pobocky" element={<Pobocky/>}>Pobočky</Route>
-        <Route path="/galerie" element={<Galerie/>}>Galerie</Route>
-        <Route path="/kontakt" element={<Kontakt/>}>Kontakt</Route>
+        <Route index element={<Home/>}/>
+        <Route path="onas" element={<ONas/>}/>
+        <Route path="pobocky" element={<Pobocky/>}/>
+        <Route path="galerie" element={<Galerie/>}/>
+        <Route path="kontakt" element={<Kontakt/>}/>
     
 
     </Route>
