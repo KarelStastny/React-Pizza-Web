@@ -19,24 +19,31 @@ $Color-Orange: #eba53d;
 .our-pizza{
     background-color: $Color-Orange;
     h2{
-
+        font-size: 25px;
     }
     .container-our-pizza{
         display: flex;
         justify-content: center;
         align-content: center;
-
-        img{
-            margin: 20px;
-            border-radius: 20px;
-            filter: brightness(70%);
-            transition: 0.3s;
-            
-            &:hover{
-                filter: brightness(100%);
-             
+        flex-wrap: wrap;
+        div{
+        
+            img{
+          
+ 
+                margin: 20px;
+                border-radius: 20px;
+                filter: brightness(70%);
+                transition: 0.3s;
+                
+                &:hover{
+                    filter: brightness(100%);
+                 
+                }
             }
+
         }
+
     }
 
 }
@@ -47,19 +54,22 @@ $Color-Orange: #eba53d;
         padding: 20px;
 
         display: flex;
-        justify-content: start;
-        // align-items: center;
+        justify-content: center;
+        align-items: center;
+     
 
         img{
-          
-          
+          object-fit: cover;
+          width: 50%;
            margin: 20px;
           
            border-radius: 15px;
+           flex-basis: 50%;
 
         }
 
         .about-description{
+            flex-basis: 50%;
             padding-left: 40px;
             h3{
                 padding-top: 20px;
@@ -85,7 +95,7 @@ $Color-Orange: #eba53d;
 
 
 .all-reference{
-    background-color: $Color-Orange;
+    
     h2{
         padding: 25px;
     }
@@ -130,4 +140,12 @@ $Color-Orange: #eba53d;
             }
         }
     }
+}
+
+@media only screen and (max-width: 900px) {
+    .cont-about{
+        flex-direction: column;
+    }
+
+    
 }

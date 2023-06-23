@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Galerie from "./pages/Galerie"
 
 import ONas from "./pages/ONas"
+import Nabidka from "./pages/Nabidka"
 import Kontakt from "./pages/Kontakt"
 import Pobocky from "./pages/Pobocky"
 import Layoud from "./pages/Layoutd"
@@ -17,6 +18,7 @@ function App() {
     <Route path='/' element={<Layoud/>}>
       {/* Jednotlivé stránky */}
         <Route index element={<Home/>}/>
+        <Route path="nabidka" element={<Nabidka/>}/>
         <Route path="onas" element={<ONas/>}/>
         <Route path="pobocky" element={<Pobocky/>}/>
         <Route path="galerie" element={<Galerie/>}/>

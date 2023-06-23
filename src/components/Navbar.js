@@ -21,6 +21,7 @@ const Navbar = () => {
             <div className="logo"><h1>Naše Pizza</h1></div>
             <ul className={`${nav ? "show" : "hide"}`}>
                 <li><NavLink to="/">Home</NavLink></li>
+                <li><NavLink to="/Nabidka">Nabídka</NavLink></li>
                 <li><NavLink to="/ONas">O nás</NavLink></li>
                 <li><NavLink to="/Pobocky">Pobočky</NavLink></li>
                 <li><NavLink to="/Galerie">Galerie</NavLink></li>

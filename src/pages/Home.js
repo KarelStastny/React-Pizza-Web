@@ -18,9 +18,11 @@ const Home = () => {
     <section className="our-pizza">
       <h2>Naše pizza</h2>
 
-      <div className="container-our-pizza row">
-          <img src={OurPizza1} />
-          <img src={OurPizza2}  />
+      <div className="container-our-pizza row ">
+        <div><img src={OurPizza1} /></div>
+        <div><img src={OurPizza2} /></div>
+          
+    
       </div>
     </section>
 
