@@ -27,11 +27,16 @@ $Color-Orange: #eba53d;
         align-content: center;
         flex-wrap: wrap;
         div{
-        
+            max-width: 600px;
+            width: 100%;
+            margin: 0  auto ;
+            text-align: center;
             img{
-          
- 
-                margin: 20px;
+        
+                width: 80%;
+                margin: 0  auto ;
+                text-align: center;
+                margin-bottom: 30px;
                 border-radius: 20px;
                 filter: brightness(70%);
                 transition: 0.3s;

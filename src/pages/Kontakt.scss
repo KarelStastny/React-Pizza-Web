@@ -1,0 +1,21 @@
+.contact{
+    display: flex;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+    article{
+        padding: 10px;
+        text-align: justify;
+        margin-right: 60px;
+    }
+}
+
+@media only screen and (max-width:900px){
+    .contact{
+        flex-direction: column;
+    }
+}

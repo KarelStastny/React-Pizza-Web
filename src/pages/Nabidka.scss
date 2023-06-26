@@ -44,6 +44,12 @@
                 text-align: center;
                 background-color: orange;
                 cursor: pointer;
+                color: black;
+                text-decoration: none;
+                &:hover{
+                    background-color: #141414;
+                    color: orange;
+                }
             }
 
     

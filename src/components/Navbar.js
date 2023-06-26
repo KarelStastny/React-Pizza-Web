@@ -23,7 +23,6 @@ const Navbar = () => {
                 <li><NavLink to="/">Home</NavLink></li>
                 <li><NavLink to="/Nabidka">Nabídka</NavLink></li>
                 <li><NavLink to="/ONas">O nás</NavLink></li>
-                <li><NavLink to="/Pobocky">Pobočky</NavLink></li>
                 <li><NavLink to="/Galerie">Galerie</NavLink></li>
                 <li><NavLink to="/kontakt">Kontakt</NavLink></li>
 

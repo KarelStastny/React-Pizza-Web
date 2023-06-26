@@ -1,7 +1,9 @@
 import React from 'react'
 import nabidka from '../data-nabidka'
+import Nabidka from "../pages/Nabidka"
 import { useParams } from "react-router-dom"
 import "./NabidkaOne.scss"
+import {Link} from "react-router-dom"
 
 const NabidkaOne = () => {
 
@@ -30,6 +32,8 @@ const NabidkaOne = () => {
             <p>Použité ingredience: {materials}</p>
             <p>Čas přípravy: {time} minut</p>
             <p>Cena {cost} €</p>
+            <Link to="/nabidka">Zpět na nabídku</Link>
+
         </div>
     </div>
   </section>
