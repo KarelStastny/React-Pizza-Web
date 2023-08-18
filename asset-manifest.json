@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/React-Pizza-web/static/css/main.3f491386.css",
+    "main.js": "/React-Pizza-web/static/js/main.532b2d02.js",
+    "static/media/hermiona.png": "/React-Pizza-web/static/media/hermiona.67d79650b1fa6f937699.png",
+    "static/media/olivova.jpg": "/React-Pizza-web/static/media/olivova.877c44e0cc87580d116c.jpg",
+    "static/media/zampionova.jpg": "/React-Pizza-web/static/media/zampionova.093a18b96174e88cbe42.jpg",
+    "static/media/ironman.png": "/React-Pizza-web/static/media/ironman.e765597f7beec587ead1.png",
+    "static/media/pizza-syr.jpg": "/React-Pizza-web/static/media/pizza-syr.1b084ad7a873cca512ad.jpg",
+    "static/media/the-rock.jpg": "/React-Pizza-web/static/media/the-rock.e55e547f47ad36ed1154.jpg",
+    "static/media/pizza4.jpg": "/React-Pizza-web/static/media/pizza4.bb4fc4d8d8f5ee6efb5a.jpg",
+    "static/media/chili.jpg": "/React-Pizza-web/static/media/chili.b3659c888b23d2a3a11b.jpg",
+    "static/media/salami.jpg": "/React-Pizza-web/static/media/salami.f721970533a369c2ec1d.jpg",
+    "static/media/pizza5.jpg": "/React-Pizza-web/static/media/pizza5.be8481be3b1eef2cdc86.jpg",
+    "static/media/pizza1.jpg": "/React-Pizza-web/static/media/pizza1.dbda5da05112a52343dc.jpg",
+    "static/media/sunkova.jpg": "/React-Pizza-web/static/media/sunkova.86071291c2d4376e9254.jpg",
+    "static/media/pizza3.jpg": "/React-Pizza-web/static/media/pizza3.95f0031bf10d7c0c1d11.jpg",
+    "static/media/pizza6.jpg": "/React-Pizza-web/static/media/pizza6.fc1d61fc050b9f8edec5.jpg",
+    "static/media/pizza2.jpg": "/React-Pizza-web/static/media/pizza2.02a59ced8cc2aa00c276.jpg",
+    "static/media/hawai.jpg": "/React-Pizza-web/static/media/hawai.9ca760410dfbb49ad3a0.jpg",
+    "index.html": "/React-Pizza-web/index.html",
+    "main.3f491386.css.map": "/React-Pizza-web/static/css/main.3f491386.css.map",
+    "main.532b2d02.js.map": "/React-Pizza-web/static/js/main.532b2d02.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f491386.css",
+    "static/js/main.532b2d02.js"
+  ]
+}
